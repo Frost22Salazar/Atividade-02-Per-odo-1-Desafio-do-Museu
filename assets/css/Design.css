@@ -1,0 +1,182 @@
+/* Style de Reset de estilos */
+/* Reset de estilos */
+body{
+    background: #f4f2ec url(../imagens/fundo.png) repeat-x; /* Define a cor de fundo e adiciona uma imagem de fundo */
+    font-size: 12px; /* Define o tamanho da fonte */
+    font-family: 'Times New Roman', Times, serif; /* Define a família de fontes */
+  }
+  
+  a:link, a:visited, a:active{
+    color: #af670a;                                   /* Define a cor dos links não visitados, visitados e ativos */
+    text-decoration: none;                              /* Remove a decoração de texto dos links */
+  }
+  
+  a:hover{
+    color: #227115;                                   /* Define a cor dos links quando o mouse está sobre eles */
+  }
+
+  #cabeçalho{
+    width: 1080px;                                      /* Define a largura do contêiner */
+    margin: 0 auto;                                     /* Centraliza o contêiner na página */
+  }
+  
+  /* Layout */
+  
+  #logo a{
+    width: 248px;                                       /* Define a largura do link do logo */
+    height: 21px;                                       /* Define a altura do link do logo */
+    text-indent: -9999px;                               /* Move o texto do link para fora da tela */
+    display: block;                                     /* Converte o link em um bloco */
+    background: url(../imagens/logo.png) no-repeat;     /* Define a imagem de fundo do logo */
+  }
+  
+  #logo h1{
+    float: left;                                        /* Alinha o logotipo à esquerda */
+  }
+  
+  /*Barra de Navegação*/
+  header{
+    padding: 15px 0;                                     /* Define o preenchimento superior e inferior do cabeçalho */
+    height: 55px;                                        /* Define a altura do cabeçalho */
+  }
+  
+  nav ul{
+    list-style: none;                                    /* Remove os marcadores de lista */
+    margin: 20px;                                        /* Define a margem da lista de navegação */
+    float: right;                                        /* Alinha a lista de navegação à direita */
+  }
+  
+  nav ul li{
+    float: left;                                         /* Alinha os itens da lista de navegação na horizontal */
+  }
+  
+  nav ul li a{
+    display: block;                                      /* Converte os links em blocos */
+    margin-right: 25px;                                  /* Define a margem à direita dos itens da lista */
+    padding-bottom: 3px;                                 /* Define o preenchimento inferior dos itens da lista */
+    text-transform: uppercase;                           /* Transforma o texto em maiúsculas */
+    font-weight: bold;                                   /* Define o peso da fonte como negrito */
+  }
+  
+  nav ul li a:hover{
+    border-bottom: 1px solid #535858;                   /* Adiciona uma borda inferior aos links quando o mouse está sobre eles */
+  }
+
+  /* Formatação Principal */
+  
+  #conteudo{
+    width: 710px;                                         /* Define a largura do conteúdo principal */
+    float: left;                                          /* Alinha o conteúdo principal à esquerda */
+  }
+  
+  aside{
+    width: 350px;                                         /* Define a largura da barra lateral */
+    float: right;                                         /* Alinha a barra lateral à direita */
+    background-color: #ebe7dd;                          /* Define a cor de fundo da barra lateral */
+    padding-bottom: 30px;                                 /* Define o preenchimento inferior da barra lateral */
+    margin-bottom: 20px;                                  /* Define a margem inferior da barra lateral */
+  }
+  
+  #visita{
+    background: #cdc8b1;                                /* Define a cor de fundo da seção de visita */
+    padding: 10px 27px 27px 27px;                         /* Define o preenchimento da seção de visita */
+    margin-top: 10px;                                     /* Define a margem superior da seção de visita */
+  }
+  
+  #galeria{
+    padding: 0 27px 0 27px;                               /* Define o preenchimento da galeria */
+  }
+  
+  #galeria a{
+    display: block;                                       /* Converte as imagens da galeria em blocos */
+    background: url(../imagens/fundo-foto.png) no-repeat; /* Define a imagem de fundo das imagens da galeria */
+    float: left;                                          /* Alinha as imagens da galeria à esquerda */
+    padding: 17px 15px 18px 15px;                         /* Define o preenchimento das imagens da galeria */
+    margin: 10px 0 0 20px;                                /* Define as margens das imagens da galeria */
+  }
+  
+  #galeria img{
+    margin-left: 2px;                                     /* Define a margem esquerda das imagens da galeria */
+    margin-top: 3px;                                      /* Define a margem superior das imagens da galeria */
+  }
+  
+  #video{
+    float: left;                                          /* Alinha o vídeo à esquerda */
+    width: 310px;                                         /* Define a largura do vídeo */
+    margin-left: 25px;                                    /* Define a margem esquerda do vídeo */
+  }
+  
+  #mapa{
+    float: left;                                          /* Alinha o mapa à esquerda */
+    width: 310px;                                         /* Define a largura do mapa */
+    margin-left: 37px;                                    /* Define a margem esquerda do mapa */
+  }
+  
+  #exposições{
+    float: left;                                          /* Alinha as exposições à esquerda */
+    width: 310px;                                         /* Define a largura das exposições */
+    margin: 15px 0 0 25px;                                /* Define as margens das exposições */
+  }
+  
+  #historia{
+    float: left;                                          /* Alinha a história à esquerda */
+    width: 310px;                                         /* Define a largura da história */
+    margin: 15px 0 0 37px;                                /* Define as margens da história */
+  }
+  
+  h3{
+    color: #217115;                                     /* Define a cor dos títulos de nível 3 */
+    font-size: 1em;                                       /* Define o tamanho da fonte dos títulos de nível 3 */
+    margin-bottom: 15px;                                  /* Define a margem inferior dos títulos de nível 3 */
+    text-transform: uppercase;                            /* Transforma o texto dos títulos de nível 3 em maiúsculas */
+    font-weight: bold;                                    /* Define o peso da fonte como negrito */
+  }
+  
+  h4{
+    color: #86521a;                                     /* Define a cor dos títulos de nível 4 */
+    text-transform: uppercase;                            /* Transforma o texto dos títulos de nível 4 em maiúsculas */
+    padding-left: 10px;                                   /* Define o preenchimento à esquerda dos títulos de nível 4 */
+    padding-bottom: 3px;                                  /* Define o preenchimento inferior dos títulos de nível 4 */
+    margin-bottom: 0;                                     /* Define a margem inferior dos títulos de nível 4 */
+  }
+  
+  /* Formulários */
+  
+  input{
+    width: 80px;                                          /* Define a largura dos inputs */
+    height: 20px;                                         /* Define a altura dos inputs */
+    background-color: white;                            /* Define a cor de fundo dos inputs */
+    border: none;                                         /* Remove a borda dos inputs */
+    font-size: 1em;                                       /* Define o tamanho da fonte dos inputs */
+  }
+  
+  input.campo{
+    border: 1px solid #ada484;                          /* Define a borda dos campos de input */
+    width: 100px;                                         /* Define a largura dos campos de input */
+  }
+  
+  input.botao{
+    background-color: #9b9271;                          /* Define a cor de fundo dos botões */
+    color: white;                                       /* Define a cor do texto dos botões */
+    width: 100%;                                          /* Define a largura dos botões */
+    height: 40px;                                         /* Define a altura dos botões */
+    font-size: 1.2em;                                     /* Define o tamanho da fonte dos botões */
+  }
+  
+  fieldset{
+    border: none;                                         /* Remove a borda do fieldset */
+  }
+  
+  /* Rodapé */
+  
+  footer{
+    padding: 20px 0 30px 0;                               /* Define o preenchimento do rodapé */
+    margin-top: 20px;                                     /* Define a margem superior do rodapé */
+    text-align: center;                                   /* Alinha o texto do rodapé ao centro */
+    background: url(../imagens/fundo-rodape.png) no-repeat center top; /* Define a imagem de fundo do rodapé */
+  }
+  
+  footer>p a{
+    padding: 2px 10px;                                        /* Define o preenchimento dos links no rodapé */
+  }
+  
